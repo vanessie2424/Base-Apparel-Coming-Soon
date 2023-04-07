@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --DesaturatedRed: hsl(0, 36%, 70%);
+    --SoftRed: hsl(0, 93%, 68%);
+    --DarkGrayishRed: hsl(0, 6%, 24%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main{
+    display: flex;
+}
+
+.content{
+    background-image: url(./images/bg-pattern-desktop.svg);
+    padding: 55px 237px;
+   
+}
+
+
+#we-color{
+    color: var(--DesaturatedRed);
+    font-weight: 300;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 85px 0 25px 0;
+    
+}
+
+p{
+    color: var(--DesaturatedRed);
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+form{
+    margin: 40px 0;
+    
+}
+.email-address{
+    border: 1.5px solid var(--DarkGrayishRed);
+    width: 340px;
+    height: 43px;
+    border-radius: 2rem;
+    padding: 2px;
+}
+input[type=text], select {
+    padding:8px 20px;
+   
+}
+
+::placeholder{
+    font-size: 15px;
+    color: var(--DarkGrayishRed);
+}
+
+
+#hero{
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.btn-submit{
+    position: relative;
+    height: 60px;
+    width: 83px;
+    border-radius: 2rem;
+    right: 70px;
+    top: 4px;
+    text-align: center;
+    background: linear-gradient( 135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+    background: linear-gradient(135deg, hsl(0, 67%, 93%), hsl(0, 74%, 74%));
+}
+
+
+@media screen and (max-width:600px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100vw;
+        background-position: center;
+    }
+
+    .email-address{
+        border: 1.5px solid var(--DarkGrayishRed);
+        width: 190px;
+        height: 43px;
+        border-radius: 2rem;
+        padding: 2px;
+    }
+    .btn-submit{
+        position: relative;
+        height: 60px;
+        width: 65px;
+        border-radius: 2rem;
+        right: 50px;
+        top: 4px;
+        text-align: center;
+        background: linear-gradient( 135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    }
+
+    .picture{
+        position: absolute;
+        top: 0;
+        background: white;
+        left: 0;
+        width: 100%;
+        padding: 17px;
+    }
+
+    .picture-content img{
+        background-image: url(./images/hero-mobile.jpg)
+    }
+}
+
+
+@media screen and (max-width:400px){
+
+}
