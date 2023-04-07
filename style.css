@@ -11,6 +11,7 @@
     margin: 0;
     outline: none;
     border: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -126,15 +127,16 @@ input[type=text], select {
         background: white;
         left: 0;
         width: 100%;
-        padding: 17px;
+        padding:17px;
     }
 
     .picture-content img{
-        background-image: url(./images/hero-mobile.jpg)
+        background-image: url(./images/hero-mobile.jpg);
+        width: 100%;
+        object-fit: contain;
+    }
+    .content{
+        padding: 10px 0px;
     }
 }
 
-
-@media screen and (max-width:400px){
-
-}
