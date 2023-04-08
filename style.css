@@ -143,7 +143,7 @@ input[type=text], select {
     }
     .hero-mobile{
         display: block;
-        width: 100vw;
+        max-width: 100vw;
     }
     .hero-desktop{
         display: none;
