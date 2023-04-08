@@ -103,7 +103,7 @@ input[type=text], select {
         align-items: center;
         flex-direction: column-reverse;
         background-position: center;
-        max-width: 100vw;
+        width: 100vw;
     }
 
     .email-address{
