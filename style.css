@@ -108,7 +108,7 @@ input[type=text], select {
 
     .email-address{
         border: 1.5px solid var(--DarkGrayishRed);
-        width: 220px;
+        width: 230px;
         height: 43px;
         border-radius: 2rem;
         padding: 12px;
