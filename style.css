@@ -133,14 +133,14 @@ input[type=text], select {
         top: 0;
         background: white;
         left: 0;
-        width: 98.4vw;
+        width: 100vw;
         padding:17px;
         background-size: 100% 100%;
 
     }
     .content{
-        padding: 10px 50px;
-        margin: 0 15px;
+        padding: 10px 20px;
+        margin: 0 8px;
     }
     .hero-mobile{
         display: block;
