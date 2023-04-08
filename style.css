@@ -91,24 +91,31 @@ input[type=text], select {
     cursor: pointer;
     background: linear-gradient(135deg, hsl(0, 67%, 93%), hsl(0, 74%, 74%));
 }
+.hero-mobile{
+    display: none;
+}
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     main{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
-        width: 100vw;
         background-position: center;
+        width: 100vw;
     }
 
     .email-address{
         border: 1.5px solid var(--DarkGrayishRed);
-        width: 190px;
+        width: 220px;
         height: 43px;
         border-radius: 2rem;
-        padding: 2px;
+        padding: 12px;
+    }
+
+    form{
+        text-align: center;
     }
     .btn-submit{
         position: relative;
@@ -126,18 +133,20 @@ input[type=text], select {
         top: 0;
         background: white;
         left: 0;
-        width: 100%;
+        width: 100vw;
         padding:17px;
-    }
 
-    .picture-content img{
-        background-image: url(./images/hero-mobile.jpg);
-        width: 100%;
-        object-fit: contain;
     }
     .content{
-        padding: 10px 90px;
-        margin: 0 20px;
+        padding: 10px 50px;
+        margin: 0 15px;
+    }
+    .hero-mobile{
+        display: block;
+        width: 100vw;
+    }
+    .hero-desktop{
+        display: none;
     }
 }
 
