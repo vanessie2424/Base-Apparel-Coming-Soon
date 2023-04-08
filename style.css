@@ -103,7 +103,7 @@ input[type=text], select {
         align-items: center;
         flex-direction: column-reverse;
         background-position: center;
-        width: 100vw;
+        max-width: 100%;
     }
 
     .email-address{
@@ -133,18 +133,16 @@ input[type=text], select {
         top: 0;
         background: white;
         left: 0;
-        width: 100vw;
+        width: 100%;
         padding:17px;
-        background-size: 100% 100%;
 
     }
     .content{
         padding: 10px 20px;
-        margin: 0 8px;
     }
     .hero-mobile{
         display: block;
-        width: 100vw;
+        width: 100%;
         height: auto;
         
     }
