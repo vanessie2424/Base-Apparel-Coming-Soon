@@ -57,7 +57,7 @@ form{
     width: 340px;
     height: 43px;
     border-radius: 2rem;
-    padding: 2px;
+    padding: 7px;
 }
 input[type=text], select {
     padding:8px 20px;
@@ -74,6 +74,13 @@ input[type=text], select {
     height: 100vh;
     object-fit: cover;
 
+}
+.alert-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6.5rem;
+    display: none;
 }
 
 .btn-submit{
@@ -95,7 +102,6 @@ input[type=text], select {
     display: none;
 }
 
-
 @media screen and (max-width:700px){
     main{
         display: flex;
@@ -108,7 +114,7 @@ input[type=text], select {
 
     .email-address{
         border: 1.5px solid var(--DarkGrayishRed);
-        width: 240px;
+        width: 250px;
         height: 43px;
         border-radius: 2rem;
         padding: 12px;
