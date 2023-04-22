@@ -169,9 +169,7 @@ input[type=text], select {
     .hero-desktop{
         display: none;
     }
-    #para{
-        text-align: center;
-    }
+   
     
 }
 
