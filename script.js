@@ -11,6 +11,7 @@ btnSubmit.addEventListener('click', (e)=>{
         Para.innerHTML = 'Thank you for subscribing';
         Para.style.color = 'green';
         email.style.border = '1px solid black';
+        errorImage.style.display = 'none';
 
     }
     else{
@@ -18,7 +19,7 @@ btnSubmit.addEventListener('click', (e)=>{
         Para.style.color = 'red';
         email.style.border = '1px solid red';
         errorImage.style.display = 'block';
-        
+
 
 
 
