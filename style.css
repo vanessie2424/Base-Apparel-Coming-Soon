@@ -102,6 +102,13 @@ input[type=text], select {
     display: none;
 }
 
+.icon-error{
+    position: absolute;
+    top: 550px;
+    left: 480px;
+    display: none;
+}
+
 @media screen and (max-width:760px){
     main{
         display: flex;
@@ -133,6 +140,14 @@ input[type=text], select {
         text-align: center;
         background: linear-gradient( 135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     }
+    
+    .icon-error{
+        position: absolute;
+        left: 212px;
+        top: 742px;
+        display: block;
+
+    }
 
     .picture{
         position: absolute;
@@ -155,6 +170,7 @@ input[type=text], select {
     .hero-desktop{
         display: none;
     }
+    
 }
 
 
