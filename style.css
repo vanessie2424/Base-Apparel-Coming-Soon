@@ -102,7 +102,7 @@ input[type=text], select {
     display: none;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:760px){
     main{
         display: flex;
         justify-content: center;
@@ -114,7 +114,7 @@ input[type=text], select {
 
     .email-address{
         border: 1.5px solid var(--DarkGrayishRed);
-        width: 180px;
+        width: 150px;
         height: 43px;
         border-radius: 2rem;
         padding: 12px;
