@@ -1,7 +1,7 @@
 const Para = document.getElementById('para');
 const email = document.querySelector('.email-address');
 const btnSubmit = document.querySelector('.btn-submit');
-const errorImage = document.querySelector('.alert-icon');
+const errorImage = document.querySelector('.icon-error');
 
 
 btnSubmit.addEventListener('click', (e)=>{
@@ -11,7 +11,6 @@ btnSubmit.addEventListener('click', (e)=>{
         Para.innerHTML = 'Thank you for subscribing';
         Para.style.color = 'green';
         email.style.border = '1px solid black';
-        errorImage.style.display = 'none';
 
     }
     else{
@@ -19,6 +18,7 @@ btnSubmit.addEventListener('click', (e)=>{
         Para.style.color = 'red';
         email.style.border = '1px solid red';
         errorImage.style.display = 'block';
+        
 
 
 
